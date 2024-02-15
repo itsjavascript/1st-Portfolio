@@ -232,7 +232,6 @@ body{
 }
 
 .used__language{
-    font-size: 14px;
     color: #403E3E;
 }
 
@@ -501,6 +500,10 @@ body{
         font-size: 13px;
     }
 
+    .card-description {
+        margin-top: 10px;
+    }
+
     .contact__list h2, .contact{
         font-size: 18px;
     }
@@ -579,8 +582,29 @@ body{
         right: 25px;
     }
 
+    .project_description{
+        font-size: 16px;
+    }
+    
+    #welcome__name h1{
+        font-size: 2em;
+        padding-bottom: 20px;
+    } 
+
     #welcome__img img{
         width: 230px;
+        
+    }
+
+    .card-description{
+        margin-top: 10px;
+    }
+    .project_head{
+        font-size: 18px;
+    }
+
+    .used__language{
+        padding-top: 5px;
     }
 
     .divider{
@@ -654,6 +678,18 @@ body{
 
     #welcome__name span:first-child{
         display: block;
+    }
+
+    .used__language{
+        padding-top: 0;
+    }
+
+    .project_head {
+        font-size: 16px;
+    }
+
+    .project_description{
+        font-size: 13px;
     }
 
     .project__heading{
